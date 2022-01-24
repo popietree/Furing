@@ -31,6 +31,10 @@ body {
   margin-top: 4rem;
 }
 
+.margin-left-md {
+  margin-left: 4rem;
+}
+
 .headingSecondary {
   font-size: 3.4rem;
 }
