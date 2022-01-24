@@ -6,6 +6,7 @@ import Footer from './components/Layout/Footer';
 import { Route, Switch } from 'react-router-dom';
 import Hero from './components/Hero';
 
+// add fav icon
 function App() {
   return (
     <>
