@@ -1,0 +1,48 @@
+.heroTextBox {
+  margin: 5rem 0 12rem 4rem;
+  height: 50vh;
+}
+.headingPrimary {
+  font-size: 4.4rem;
+}
+
+.heroDescription {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #333;
+  letter-spacing: 1;
+  margin-bottom: 4rem;
+}
+
+.btnFull:link,
+.btnFull:visited {
+  transition: all 0.4s;
+  text-decoration: none;
+  background-color: #1014f2;
+  color: white;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  margin: 4px 0;
+  border: 1px solid #1014f2;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.btnFull:hover,
+.btnFull:active {
+  background-color: rgb(27, 32, 130);
+  border: 1px solid #1014f2;
+  margin: 0;
+}
+
+.deliveredStats {
+  font-size: 1.8rem;
+  font-weight: 600;
+  justify-content: end;
+}
+.deliveredStats span {
+  color: #ec1d26;
+}

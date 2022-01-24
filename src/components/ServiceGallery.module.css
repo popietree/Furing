@@ -1,0 +1,32 @@
+.sectionServices {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin-bottom: 10rem;
+}
+
+.galleryInvoice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-left: 4rem;
+}
+
+.galleryMenu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-left: 4rem;
+}
+
+.imgDescription {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.imageBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
