@@ -20,7 +20,7 @@ const ServiceGallery = () => {
         </div>
         <div className={classes.imageBox}>
           <ImgContain src={notepadStack} />
-          <p className={classes.imgDescription}>Invoice notepad</p>
+          <p className={classes.imgDescription}>Invoice notepads</p>
         </div>
         <div className={classes.imageBox}>
           <ImgContain src={invoice} />

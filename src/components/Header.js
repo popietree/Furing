@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <header className={classes.header}>
         <div className={classes.logo}>
-          <img src={logo} alt='A logo with f and p character ' class='logo' />{' '}
+          <img src={logo} alt='A logo with f and p character ' class='logo' />
           <span>富 榮 印 務 </span>
           <span> Furing Printing</span>
         </div>
@@ -26,6 +26,11 @@ const Header = () => {
             <li>
               <NavLink to='contact' activeClassName={classes.active}>
                 Contact
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to='quote' className='btnFull'>
+                Get quote
               </NavLink>
             </li>
           </ul>

@@ -4,8 +4,7 @@ import QuoteForm from '../components/QuoteForm';
 const ContactPg = () => {
   return (
     <div className={classes.contact}>
-      <QuoteForm />
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 };

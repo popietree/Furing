@@ -19,6 +19,9 @@ function App() {
       <Route path='/contact' exact>
         <ContactPg />
       </Route>
+      <Route path='/quote' exact>
+        <QuoteForm />
+      </Route>
 
       <Footer />
     </>

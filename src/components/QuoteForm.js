@@ -1,10 +1,17 @@
 import classes from './QuoteForm.module.css';
 
 const QuoteForm = () => {
+  //show model of sucessful submit and use router back to main page
+  const submitHandler = () => {};
   return (
     <section className={classes.quote}>
       <h2 className='headingSecondary'>Request a Quote</h2>
-      <form className={classes.form} name='sign-up' netlify>
+      <form
+        onSubmit={submitHandler}
+        className={classes.form}
+        name='sign-up'
+        netlify
+      >
         <div className={classes.name}>
           <div className={classes.fixWidth}>
             <label className={classes.label} for='first-name'>
