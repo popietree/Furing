@@ -14,7 +14,7 @@
   letter-spacing: 1;
   margin-bottom: 4rem;
 }
-
+/* 
 .btnFull:link,
 .btnFull:visited {
   transition: all 0.4s;
@@ -36,13 +36,4 @@
   background-color: rgb(27, 32, 130);
   border: 1px solid #1014f2;
   margin: 0;
-}
-
-.deliveredStats {
-  font-size: 1.8rem;
-  font-weight: 600;
-  justify-content: end;
-}
-.deliveredStats span {
-  color: #ec1d26;
-}
+} */

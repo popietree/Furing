@@ -8,8 +8,7 @@ const Hero = () => {
         and much more
       </p>
 
-      <a href='#cta' className={classes.btnFull}>
-        {/* change to link to order */}
+      <a href='#cta' className='btnFull'>
         Get quote now
       </a>
     </div>

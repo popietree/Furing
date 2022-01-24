@@ -51,7 +51,7 @@ const QuoteForm = () => {
           <textarea id='project' type='project' name='project' />
         </div>
 
-        <button class='btn btn--form'>Sign up now</button>
+        <button className='btnFull'>Get Quote</button>
       </form>
     </section>
   );
